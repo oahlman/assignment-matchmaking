@@ -1,9 +1,0 @@
-trigger:
-- master
-
-pool:
-  vmImage: 'ubuntu-latest'
-
-steps:
-- script: echo 'CI process started!'
-  displayName: 'Run Script'
