@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: assignment-matchmaking
 
 steps:
 - script: echo Hello, world!
